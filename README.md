@@ -41,3 +41,4 @@ A recipe for creating the container filesystem. Sequential and layered.
 ## Reference
 
 - [Docker Hub Container Registry](https://hub.docker.com/)
+- [Containerize a .NET application](https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows&pivots=dotnet-9-0)
