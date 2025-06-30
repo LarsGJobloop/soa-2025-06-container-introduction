@@ -1,3 +1,7 @@
+## Sketch
+
+![Scratches from lecture](/docs/container-introduction.png)
+
 ## Concepts
 
 ### What is a container?
@@ -36,6 +40,12 @@ A recipe for creating the container filesystem. Sequential and layered.
 
   ```sh
   docker compose up --build
+  ```
+
+- Clean up command
+
+  ```sh
+  docker compose down
   ```
 
 ## Reference
