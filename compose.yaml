@@ -3,3 +3,9 @@ services:
     image: nginx
     ports:
       - 8080:80
+  frontpage:
+    build:
+      context: ./frontpage
+      dockerfile: Dockerfile
+    ports:
+      - 8081:80

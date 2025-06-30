@@ -1,3 +1,13 @@
+## Concepts
+
+### What is a container?
+
+It's just a selfcontained file system
+
+### What is a Dockerfile
+
+A recipe for creating the container filesystem. Sequential and layered.
+
 ## Verification Commands
 
 - Run test container
@@ -21,6 +31,11 @@
 
   ```sh
   docker compose up
+  ```
+- Rebuild after doing changes
+
+  ```sh
+  docker compose up --build
   ```
 
 ## Reference
